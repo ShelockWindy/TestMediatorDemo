@@ -32,6 +32,14 @@
     [testButt addTarget:self action:@selector(testButtAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:testButt];
     
+    UIButton * testButt2 = [UIButton buttonWithType:UIButtonTypeCustom];
+    testButt2.frame = CGRectMake(100, 300, 100, 100);
+    testButt2.backgroundColor = [UIColor blueColor];
+    [testButt2 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [testButt2 setTitle:@"MoudleB_test" forState:UIControlStateNormal];
+    [testButt2 addTarget:self action:@selector(testButt2Action:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:testButt2];
+    
     
 }
 
@@ -43,15 +51,20 @@
     
     [self dismissViewControllerAnimated:YES completion:^{
         
-        [[MeditorRoute sharedInstance]performActionWithTarget:@"MoudleA_ViewController"      params:@{@"actionName":@"说hello"} actionSelectorAndObjects:@[ @{Meditor_ACTION_NAME:@"sayHelloToP2:p2:",  Meditor_ACTION_OBJECTS :@[@"555",@"666"] },@{Meditor_ACTION_NAME:@"sayNone"}]
-                                                   completion:^(id response) {
-                                                       
-                                                       [self.presentedViewController presentViewController:response animated:YES completion:nil];                                                       }];
+//        [[MeditorRoute sharedInstance]performActionWithTarget:@"MoudleA_ViewController"      params:@{@"actionName":@"说hello"} actionSelectorAndObjects:@[ @{Meditor_ACTION_NAME:@"sayHelloToP2:p2:",  Meditor_ACTION_OBJECTS :@[@"555",@"666"] },@{Meditor_ACTION_NAME:@"sayNone"}]
+//                                                   completion:^(id response) {
+//
+//                                                       [self.presentedViewController presentViewController:response animated:YES completion:nil];                                                       }];
         
     }];
     
-  
+}
+
+-(void)testButt2Action:(UIButton*)sender
+{
+   // [[NSNotificationCenter defaultCenter]postNotificationName:MOUDLE_INTO_Moudel_A_ViewController object:self];
     
+    [[NSNotificationCenter defaultCenter]postNotificationName:MOUDLE_INTO_Moudel_A_ViewController object:self userInfo:@{@"SEL":NSStringFromSelector(@selector(sayGoodByeToP1:p2:))}];
 }
 
 -(void)sayGoodByeToP1:(NSString*)p1 p2:(NSString*)p2

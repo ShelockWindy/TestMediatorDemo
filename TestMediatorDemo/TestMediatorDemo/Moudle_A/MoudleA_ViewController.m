@@ -7,44 +7,42 @@
 //
 
 #import "MoudleA_ViewController.h"
-#import "MeditorRoute.h"
+#import "ViewA.h"
+#import "CitySelectView.h"
+#import "Business_A.h"
 
 @interface MoudleA_ViewController ()
 
+@property (nonatomic,strong) ViewA * viewA;
+@property (nonatomic,strong) Business_A * business_A;
+@property (nonatomic,strong) CitySelectView * citySelectView;
+
 @end
 
+
+
 @implementation MoudleA_ViewController
+@synthesize actionName;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    // Do any additional setup after loading the view.
-    UIButton * testButt = [UIButton buttonWithType:UIButtonTypeCustom];
-    testButt.frame = CGRectMake(100, 100, 100, 100);
-    testButt.backgroundColor = [UIColor redColor];
-    [testButt setTitle:@"MoudleA_test" forState:UIControlStateNormal];
-    [testButt setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [testButt addTarget:self action:@selector(testButtAction:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:testButt];
-    
-    
+    [self subViewLoad];
+    [self eventsBind];
+    [self log_Test];
 }
 
--(void)sayHelloToP1:(NSString*)p1 p2:(NSString*)p2
+-(void)subViewLoad
 {
-    NSLog(@"MoudleA_ViewController sayhello to %@ ，%@",  p1,p2);
+    self.viewA.frame = self.view.bounds;
 }
 
--(void)sayNone
+-(void)eventsBind
 {
-    NSLog(@"MoudleA_ViewController sayNone");
+    [self.viewA.testButt addTarget:self action:@selector(testButtAction:) forControlEvents:UIControlEventTouchUpInside];
 }
 
--(void)testButtAction:(UIButton*)sender
-{
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -55,5 +53,73 @@
 {
     NSLog(@"%@被释放了",  NSStringFromClass([self class]));
 }
+
+#pragma mark- Evetns
+
+-(void)testButtAction:(UIButton*)sender
+{
+    //[self dismissViewControllerAnimated:YES completion:nil];
+    __weak typeof(self) weakSelf = self;
+    [self.business_A loginWithUsername:@"aaa" password:@"1231" complete:^(BOOL sucess, id viewModel) {
+        
+        __strong typeof(self)  strongSelf = weakSelf;
+        //跳转界面
+        [strongSelf AViewRenderWith:viewModel];
+        
+        
+    }];
+    
+
+    [self.citySelectView citySelectFinishHandle:^(NSString *cityCode, NSString *cityName) {
+        __strong typeof(self)  strongSelf = weakSelf;
+        NSLog(@"已经完成城市选择！");
+        NSLog(@"cityName---%@",cityName);
+        NSLog(@"cityId---%@",cityCode);
+     
+
+    }];
+}
+
+#pragma mark- Delegate
+
+
+#pragma mark- UIRender
+
+-(void)AViewRenderWith:(ModelA*)model
+{
+    AViewModel * viewModel = [[AViewModel alloc]initWithModelA:model];
+    [self.viewA renderWithViewModleA:viewModel];
+    
+}
+
+#pragma mark- Getter
+
+-(Business_A *)business_A
+{
+    if (_business_A==nil) {
+        _business_A = [[Business_A alloc]init];
+    }
+
+    return _business_A;
+}
+
+-(CitySelectView *)citySelectView
+{
+    if (_citySelectView==nil) {
+        _citySelectView = [[CitySelectView alloc]init];
+        
+    }
+    return _citySelectView;
+}
+
+-(ViewA *)viewA
+{
+    if (!_viewA) {
+        _viewA = [[ViewA alloc]init];
+        [self.view addSubview:_viewA];
+    }
+    return _viewA;
+}
+
 
 @end

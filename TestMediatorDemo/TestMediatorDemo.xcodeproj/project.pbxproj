@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9FEBCE5257925F88709C4AB /* libPods-TestMediatorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 757B55E80BADF8088DB16766 /* libPods-TestMediatorDemo.a */; };
 		FF181A921FF48AB40072E158 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF181A911FF48AB40072E158 /* AppDelegate.m */; };
 		FF181A951FF48AB40072E158 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF181A941FF48AB40072E158 /* ViewController.m */; };
 		FF181A981FF48AB40072E158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF181A961FF48AB40072E158 /* Main.storyboard */; };
@@ -17,9 +18,32 @@
 		FF181AAE1FF48BD30072E158 /* MoudleB_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF181AAD1FF48BD30072E158 /* MoudleB_ViewController.m */; };
 		FF181AB11FF48C130072E158 /* MeditorRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = FF181AB01FF48C130072E158 /* MeditorRoute.m */; };
 		FF181AB41FF495E30072E158 /* NSObject+Meditor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF181AB31FF495E30072E158 /* NSObject+Meditor.m */; };
+		FF532BB21FFE284100E63A9C /* Business_A.m in Sources */ = {isa = PBXBuildFile; fileRef = FF532BB11FFE284100E63A9C /* Business_A.m */; };
+		FF7D04AF1FFCAE82007FA332 /* UIViewController+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D04AE1FFCAE82007FA332 /* UIViewController+Test.m */; };
+		FF7D04B71FFCC78A007FA332 /* UIViewController+test.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D04B61FFCC78A007FA332 /* UIViewController+test.m */; };
+		FF7D04BB1FFCC9AC007FA332 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D04BA1FFCC9AC007FA332 /* BaseRequest.m */; };
+		FF7D04C61FFCCC59007FA332 /* ViewA.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D04C51FFCCC59007FA332 /* ViewA.m */; };
+		FF7D04C91FFCCC71007FA332 /* ModelA.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D04C81FFCCC71007FA332 /* ModelA.m */; };
+		FF7D04CC1FFCCCB8007FA332 /* AViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D04CB1FFCCCB8007FA332 /* AViewModel.m */; };
+		FF7D04CF1FFCCDF3007FA332 /* MoudleA_DataManger.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D04CE1FFCCDF3007FA332 /* MoudleA_DataManger.m */; };
+		FF7D04D21FFCD9E9007FA332 /* CitySelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D04D11FFCD9E9007FA332 /* CitySelectView.m */; };
+		FFA3FE031FFB91F6002D4D27 /* MoudleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA3FE021FFB91F6002D4D27 /* MoudleManager.m */; };
+		FFA3FE061FFB9213002D4D27 /* MoudleConsit.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA3FE051FFB9213002D4D27 /* MoudleConsit.m */; };
+		FFA3FE091FFB923F002D4D27 /* Moudle_A.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA3FE081FFB923F002D4D27 /* Moudle_A.m */; };
+		FFA3FE0C1FFB9254002D4D27 /* Moudle_B.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA3FE0B1FFB9254002D4D27 /* Moudle_B.m */; };
+		FFA3FE121FFB9445002D4D27 /* Moudle_Into_MoudleA.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA3FE111FFB9445002D4D27 /* Moudle_Into_MoudleA.m */; };
+		FFDF27EE1FF5E81B004DD23C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDF27ED1FF5E81B004DD23C /* AppDelegate.m */; };
+		FFDF27F11FF5E81B004DD23C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDF27F01FF5E81B004DD23C /* ViewController.m */; };
+		FFDF27F41FF5E81B004DD23C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDF27F21FF5E81B004DD23C /* Main.storyboard */; };
+		FFDF27F61FF5E81B004DD23C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDF27F51FF5E81B004DD23C /* Assets.xcassets */; };
+		FFDF27F91FF5E81B004DD23C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDF27F71FF5E81B004DD23C /* LaunchScreen.storyboard */; };
+		FFDF27FC1FF5E81B004DD23C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDF27FB1FF5E81B004DD23C /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1772C9D90FAC78B38DCAC202 /* Pods-TestMediatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMediatorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestMediatorDemo/Pods-TestMediatorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		757B55E80BADF8088DB16766 /* libPods-TestMediatorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestMediatorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E41F3931AE0B4FF847FB73 /* Pods-TestMediatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMediatorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestMediatorDemo/Pods-TestMediatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FF181A8D1FF48AB40072E158 /* TestMediatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMediatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF181A901FF48AB40072E158 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF181A911FF48AB40072E158 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,10 +62,60 @@
 		FF181AB01FF48C130072E158 /* MeditorRoute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeditorRoute.m; sourceTree = "<group>"; };
 		FF181AB21FF495E30072E158 /* NSObject+Meditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Meditor.h"; sourceTree = "<group>"; };
 		FF181AB31FF495E30072E158 /* NSObject+Meditor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Meditor.m"; sourceTree = "<group>"; };
+		FF532BB01FFE284100E63A9C /* Business_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Business_A.h; sourceTree = "<group>"; };
+		FF532BB11FFE284100E63A9C /* Business_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Business_A.m; sourceTree = "<group>"; };
+		FF7D04AD1FFCAE82007FA332 /* UIViewController+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Test.h"; sourceTree = "<group>"; };
+		FF7D04AE1FFCAE82007FA332 /* UIViewController+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Test.m"; sourceTree = "<group>"; };
+		FF7D04B11FFCC381007FA332 /* UnitKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitKit.h; sourceTree = "<group>"; };
+		FF7D04B21FFCC533007FA332 /* MoudleA_ Reference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoudleA_ Reference.h"; sourceTree = "<group>"; };
+		FF7D04B41FFCC733007FA332 /* UnitCategorys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitCategorys.h; sourceTree = "<group>"; };
+		FF7D04B51FFCC78A007FA332 /* UIViewController+test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+test.h"; sourceTree = "<group>"; };
+		FF7D04B61FFCC78A007FA332 /* UIViewController+test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+test.m"; sourceTree = "<group>"; };
+		FF7D04B91FFCC9AC007FA332 /* BaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		FF7D04BA1FFCC9AC007FA332 /* BaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		FF7D04BD1FFCCA14007FA332 /* CustomUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomUIKit.h; sourceTree = "<group>"; };
+		FF7D04C41FFCCC59007FA332 /* ViewA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewA.h; sourceTree = "<group>"; };
+		FF7D04C51FFCCC59007FA332 /* ViewA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewA.m; sourceTree = "<group>"; };
+		FF7D04C71FFCCC71007FA332 /* ModelA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelA.h; sourceTree = "<group>"; };
+		FF7D04C81FFCCC71007FA332 /* ModelA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelA.m; sourceTree = "<group>"; };
+		FF7D04CA1FFCCCB8007FA332 /* AViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewModel.h; sourceTree = "<group>"; };
+		FF7D04CB1FFCCCB8007FA332 /* AViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewModel.m; sourceTree = "<group>"; };
+		FF7D04CD1FFCCDF3007FA332 /* MoudleA_DataManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoudleA_DataManger.h; sourceTree = "<group>"; };
+		FF7D04CE1FFCCDF3007FA332 /* MoudleA_DataManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoudleA_DataManger.m; sourceTree = "<group>"; };
+		FF7D04D01FFCD9E9007FA332 /* CitySelectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CitySelectView.h; sourceTree = "<group>"; };
+		FF7D04D11FFCD9E9007FA332 /* CitySelectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitySelectView.m; sourceTree = "<group>"; };
+		FFA3FE011FFB91F6002D4D27 /* MoudleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoudleManager.h; sourceTree = "<group>"; };
+		FFA3FE021FFB91F6002D4D27 /* MoudleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoudleManager.m; sourceTree = "<group>"; };
+		FFA3FE041FFB9213002D4D27 /* MoudleConsit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoudleConsit.h; sourceTree = "<group>"; };
+		FFA3FE051FFB9213002D4D27 /* MoudleConsit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoudleConsit.m; sourceTree = "<group>"; };
+		FFA3FE071FFB923F002D4D27 /* Moudle_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Moudle_A.h; sourceTree = "<group>"; };
+		FFA3FE081FFB923F002D4D27 /* Moudle_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moudle_A.m; sourceTree = "<group>"; };
+		FFA3FE0A1FFB9254002D4D27 /* Moudle_B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Moudle_B.h; sourceTree = "<group>"; };
+		FFA3FE0B1FFB9254002D4D27 /* Moudle_B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moudle_B.m; sourceTree = "<group>"; };
+		FFA3FE101FFB9445002D4D27 /* Moudle_Into_MoudleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Moudle_Into_MoudleA.h; sourceTree = "<group>"; };
+		FFA3FE111FFB9445002D4D27 /* Moudle_Into_MoudleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moudle_Into_MoudleA.m; sourceTree = "<group>"; };
+		FFDF27EA1FF5E81A004DD23C /* NewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDF27EC1FF5E81B004DD23C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFDF27ED1FF5E81B004DD23C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFDF27EF1FF5E81B004DD23C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFDF27F01FF5E81B004DD23C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFDF27F31FF5E81B004DD23C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFDF27F51FF5E81B004DD23C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFDF27F81FF5E81B004DD23C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFDF27FA1FF5E81B004DD23C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDF27FB1FF5E81B004DD23C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FF181A8A1FF48AB40072E158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FEBCE5257925F88709C4AB /* libPods-TestMediatorDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDF27E71FF5E81A004DD23C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,11 +125,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4214B5EC505CFB00B386AF7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				757B55E80BADF8088DB16766 /* libPods-TestMediatorDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9CB36668F1DCABB5D498AC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0E41F3931AE0B4FF847FB73 /* Pods-TestMediatorDemo.debug.xcconfig */,
+				1772C9D90FAC78B38DCAC202 /* Pods-TestMediatorDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FF181A841FF48AB40072E158 = {
 			isa = PBXGroup;
 			children = (
 				FF181A8F1FF48AB40072E158 /* TestMediatorDemo */,
+				FFDF27EB1FF5E81B004DD23C /* NewDemo */,
 				FF181A8E1FF48AB40072E158 /* Products */,
+				F9CB36668F1DCABB5D498AC6 /* Pods */,
+				4214B5EC505CFB00B386AF7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				FF181A8D1FF48AB40072E158 /* TestMediatorDemo.app */,
+				FFDF27EA1FF5E81A004DD23C /* NewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +165,9 @@
 		FF181A8F1FF48AB40072E158 /* TestMediatorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FF7D04BC1FFCC9D6007FA332 /* CustomUIKit */,
+				FF7D04B81FFCC962007FA332 /* BaseRequest */,
+				FF7D04B01FFCC355007FA332 /* UnitKit */,
 				FF181AA71FF48B5F0072E158 /* Moudle_A */,
 				FF181AA81FF48B630072E158 /* Moulde_B */,
 				FF181AA61FF48B260072E158 /* MeditorRoute */,
@@ -77,6 +175,8 @@
 				FF181A911FF48AB40072E158 /* AppDelegate.m */,
 				FF181A931FF48AB40072E158 /* ViewController.h */,
 				FF181A941FF48AB40072E158 /* ViewController.m */,
+				FF7D04AD1FFCAE82007FA332 /* UIViewController+Test.h */,
+				FF7D04AE1FFCAE82007FA332 /* UIViewController+Test.m */,
 				FF181A961FF48AB40072E158 /* Main.storyboard */,
 				FF181A991FF48AB40072E158 /* Assets.xcassets */,
 				FF181A9B1FF48AB40072E158 /* LaunchScreen.storyboard */,
@@ -89,6 +189,7 @@
 		FF181AA61FF48B260072E158 /* MeditorRoute */ = {
 			isa = PBXGroup;
 			children = (
+				FFA3FE001FFB91CA002D4D27 /* MoudleManager */,
 				FF181AAF1FF48C130072E158 /* MeditorRoute.h */,
 				FF181AB01FF48C130072E158 /* MeditorRoute.m */,
 				FF181AB21FF495E30072E158 /* NSObject+Meditor.h */,
@@ -100,8 +201,16 @@
 		FF181AA71FF48B5F0072E158 /* Moudle_A */ = {
 			isa = PBXGroup;
 			children = (
+				FF532BAF1FFE27E300E63A9C /* Business_A */,
+				FF7D04C31FFCCC3B007FA332 /* View */,
+				FF7D04C21FFCCBB1007FA332 /* Modle */,
+				FF7D04C11FFCCB9E007FA332 /* ViewModel */,
+				FF7D04C01FFCCB8D007FA332 /* DataManager */,
 				FF181AA91FF48BB10072E158 /* MoudleA_ViewController.h */,
 				FF181AAA1FF48BB10072E158 /* MoudleA_ViewController.m */,
+				FFA3FE071FFB923F002D4D27 /* Moudle_A.h */,
+				FFA3FE081FFB923F002D4D27 /* Moudle_A.m */,
+				FF7D04B21FFCC533007FA332 /* MoudleA_ Reference.h */,
 			);
 			path = Moudle_A;
 			sourceTree = "<group>";
@@ -111,8 +220,122 @@
 			children = (
 				FF181AAC1FF48BD30072E158 /* MoudleB_ViewController.h */,
 				FF181AAD1FF48BD30072E158 /* MoudleB_ViewController.m */,
+				FFA3FE0A1FFB9254002D4D27 /* Moudle_B.h */,
+				FFA3FE0B1FFB9254002D4D27 /* Moudle_B.m */,
 			);
 			path = Moulde_B;
+			sourceTree = "<group>";
+		};
+		FF532BAF1FFE27E300E63A9C /* Business_A */ = {
+			isa = PBXGroup;
+			children = (
+				FF532BB01FFE284100E63A9C /* Business_A.h */,
+				FF532BB11FFE284100E63A9C /* Business_A.m */,
+			);
+			path = Business_A;
+			sourceTree = "<group>";
+		};
+		FF7D04B01FFCC355007FA332 /* UnitKit */ = {
+			isa = PBXGroup;
+			children = (
+				FF7D04B11FFCC381007FA332 /* UnitKit.h */,
+				FF7D04B31FFCC6AA007FA332 /* Categorys */,
+			);
+			path = UnitKit;
+			sourceTree = "<group>";
+		};
+		FF7D04B31FFCC6AA007FA332 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				FF7D04B41FFCC733007FA332 /* UnitCategorys.h */,
+				FF7D04B51FFCC78A007FA332 /* UIViewController+test.h */,
+				FF7D04B61FFCC78A007FA332 /* UIViewController+test.m */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		FF7D04B81FFCC962007FA332 /* BaseRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FF7D04B91FFCC9AC007FA332 /* BaseRequest.h */,
+				FF7D04BA1FFCC9AC007FA332 /* BaseRequest.m */,
+			);
+			path = BaseRequest;
+			sourceTree = "<group>";
+		};
+		FF7D04BC1FFCC9D6007FA332 /* CustomUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FF7D04BD1FFCCA14007FA332 /* CustomUIKit.h */,
+			);
+			path = CustomUIKit;
+			sourceTree = "<group>";
+		};
+		FF7D04C01FFCCB8D007FA332 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				FF7D04CD1FFCCDF3007FA332 /* MoudleA_DataManger.h */,
+				FF7D04CE1FFCCDF3007FA332 /* MoudleA_DataManger.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		FF7D04C11FFCCB9E007FA332 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF7D04CA1FFCCCB8007FA332 /* AViewModel.h */,
+				FF7D04CB1FFCCCB8007FA332 /* AViewModel.m */,
+				FF7D04D01FFCD9E9007FA332 /* CitySelectView.h */,
+				FF7D04D11FFCD9E9007FA332 /* CitySelectView.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF7D04C21FFCCBB1007FA332 /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				FF7D04C71FFCCC71007FA332 /* ModelA.h */,
+				FF7D04C81FFCCC71007FA332 /* ModelA.m */,
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		FF7D04C31FFCCC3B007FA332 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF7D04C41FFCCC59007FA332 /* ViewA.h */,
+				FF7D04C51FFCCC59007FA332 /* ViewA.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FFA3FE001FFB91CA002D4D27 /* MoudleManager */ = {
+			isa = PBXGroup;
+			children = (
+				FFA3FE011FFB91F6002D4D27 /* MoudleManager.h */,
+				FFA3FE021FFB91F6002D4D27 /* MoudleManager.m */,
+				FFA3FE041FFB9213002D4D27 /* MoudleConsit.h */,
+				FFA3FE051FFB9213002D4D27 /* MoudleConsit.m */,
+				FFA3FE101FFB9445002D4D27 /* Moudle_Into_MoudleA.h */,
+				FFA3FE111FFB9445002D4D27 /* Moudle_Into_MoudleA.m */,
+			);
+			path = MoudleManager;
+			sourceTree = "<group>";
+		};
+		FFDF27EB1FF5E81B004DD23C /* NewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FFDF27EC1FF5E81B004DD23C /* AppDelegate.h */,
+				FFDF27ED1FF5E81B004DD23C /* AppDelegate.m */,
+				FFDF27EF1FF5E81B004DD23C /* ViewController.h */,
+				FFDF27F01FF5E81B004DD23C /* ViewController.m */,
+				FFDF27F21FF5E81B004DD23C /* Main.storyboard */,
+				FFDF27F51FF5E81B004DD23C /* Assets.xcassets */,
+				FFDF27F71FF5E81B004DD23C /* LaunchScreen.storyboard */,
+				FFDF27FA1FF5E81B004DD23C /* Info.plist */,
+				FFDF27FB1FF5E81B004DD23C /* main.m */,
+			);
+			path = NewDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +345,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF181AA31FF48AB40072E158 /* Build configuration list for PBXNativeTarget "TestMediatorDemo" */;
 			buildPhases = (
+				C3A16D8914E053F9DE2C9001 /* [CP] Check Pods Manifest.lock */,
 				FF181A891FF48AB40072E158 /* Sources */,
 				FF181A8A1FF48AB40072E158 /* Frameworks */,
 				FF181A8B1FF48AB40072E158 /* Resources */,
+				6E47238182128A0FED4B3BFC /* [CP] Embed Pods Frameworks */,
+				32038E9A247951824AA74502 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +359,23 @@
 			name = TestMediatorDemo;
 			productName = TestMediatorDemo;
 			productReference = FF181A8D1FF48AB40072E158 /* TestMediatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFDF27E91FF5E81A004DD23C /* NewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDF27FF1FF5E81B004DD23C /* Build configuration list for PBXNativeTarget "NewDemo" */;
+			buildPhases = (
+				FFDF27E61FF5E81A004DD23C /* Sources */,
+				FFDF27E71FF5E81A004DD23C /* Frameworks */,
+				FFDF27E81FF5E81A004DD23C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewDemo;
+			productName = NewDemo;
+			productReference = FFDF27EA1FF5E81A004DD23C /* NewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,6 +388,10 @@
 				ORGANIZATIONNAME = SunDayPlay;
 				TargetAttributes = {
 					FF181A8C1FF48AB40072E158 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FFDF27E91FF5E81A004DD23C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -164,6 +411,7 @@
 			projectRoot = "";
 			targets = (
 				FF181A8C1FF48AB40072E158 /* TestMediatorDemo */,
+				FFDF27E91FF5E81A004DD23C /* NewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -179,20 +427,102 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFDF27E81FF5E81A004DD23C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDF27F91FF5E81B004DD23C /* LaunchScreen.storyboard in Resources */,
+				FFDF27F61FF5E81B004DD23C /* Assets.xcassets in Resources */,
+				FFDF27F41FF5E81B004DD23C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32038E9A247951824AA74502 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestMediatorDemo/Pods-TestMediatorDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E47238182128A0FED4B3BFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestMediatorDemo/Pods-TestMediatorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A16D8914E053F9DE2C9001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF181A891FF48AB40072E158 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7D04B71FFCC78A007FA332 /* UIViewController+test.m in Sources */,
 				FF181AB41FF495E30072E158 /* NSObject+Meditor.m in Sources */,
 				FF181AB11FF48C130072E158 /* MeditorRoute.m in Sources */,
+				FF532BB21FFE284100E63A9C /* Business_A.m in Sources */,
+				FF7D04CF1FFCCDF3007FA332 /* MoudleA_DataManger.m in Sources */,
 				FF181AAB1FF48BB10072E158 /* MoudleA_ViewController.m in Sources */,
+				FF7D04AF1FFCAE82007FA332 /* UIViewController+Test.m in Sources */,
+				FFA3FE031FFB91F6002D4D27 /* MoudleManager.m in Sources */,
+				FF7D04C91FFCCC71007FA332 /* ModelA.m in Sources */,
+				FFA3FE0C1FFB9254002D4D27 /* Moudle_B.m in Sources */,
+				FF7D04BB1FFCC9AC007FA332 /* BaseRequest.m in Sources */,
 				FF181A951FF48AB40072E158 /* ViewController.m in Sources */,
+				FFA3FE091FFB923F002D4D27 /* Moudle_A.m in Sources */,
+				FFA3FE061FFB9213002D4D27 /* MoudleConsit.m in Sources */,
 				FF181AA01FF48AB40072E158 /* main.m in Sources */,
+				FFA3FE121FFB9445002D4D27 /* Moudle_Into_MoudleA.m in Sources */,
 				FF181A921FF48AB40072E158 /* AppDelegate.m in Sources */,
+				FF7D04C61FFCCC59007FA332 /* ViewA.m in Sources */,
+				FF7D04D21FFCD9E9007FA332 /* CitySelectView.m in Sources */,
+				FF7D04CC1FFCCCB8007FA332 /* AViewModel.m in Sources */,
 				FF181AAE1FF48BD30072E158 /* MoudleB_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDF27E61FF5E81A004DD23C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDF27F11FF5E81B004DD23C /* ViewController.m in Sources */,
+				FFDF27FC1FF5E81B004DD23C /* main.m in Sources */,
+				FFDF27EE1FF5E81B004DD23C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +541,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				FF181A9C1FF48AB40072E158 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FFDF27F21FF5E81B004DD23C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDF27F31FF5E81B004DD23C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFDF27F71FF5E81B004DD23C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDF27F81FF5E81B004DD23C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -324,6 +670,7 @@
 		};
 		FF181AA41FF48AB40072E158 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E41F3931AE0B4FF847FB73 /* Pods-TestMediatorDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -333,11 +680,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = helloWork.TestMediatorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		FF181AA51FF48AB40072E158 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1772C9D90FAC78B38DCAC202 /* Pods-TestMediatorDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -345,6 +694,35 @@
 				INFOPLIST_FILE = TestMediatorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = helloWork.TestMediatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		FFDF27FD1FF5E81B004DD23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4BETC4J6Y;
+				INFOPLIST_FILE = NewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = helloWork.NewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFDF27FE1FF5E81B004DD23C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4BETC4J6Y;
+				INFOPLIST_FILE = NewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = helloWork.NewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,6 +745,15 @@
 			buildConfigurations = (
 				FF181AA41FF48AB40072E158 /* Debug */,
 				FF181AA51FF48AB40072E158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDF27FF1FF5E81B004DD23C /* Build configuration list for PBXNativeTarget "NewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDF27FD1FF5E81B004DD23C /* Debug */,
+				FFDF27FE1FF5E81B004DD23C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MoudleA_ Reference.h"
 
-@interface MoudleA_ViewController : UIViewController
+@protocol MoudleA_ViewControllerProtocol
 
 @property (nonatomic,copy) NSString * actionName;
+
+@end
+
+
+@interface MoudleA_ViewController : UIViewController<MoudleA_ViewControllerProtocol>
 
 
 @end

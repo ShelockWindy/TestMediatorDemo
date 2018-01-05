@@ -85,8 +85,8 @@
         NSString* name = [NSString stringWithUTF8String:property_getName(property)];
         [nameArr addObject:name];
         //属性描述
-        const char * propertyAttr = property_getAttributes(property);
-        NSLog(@"属性描述为 %s 的 %@ ", propertyAttr, name);
+        //const char * propertyAttr = property_getAttributes(property);
+        //NSLog(@"属性描述为 %s 的 %@ ", propertyAttr, name);
         
         //属性的特性
         unsigned int attrCount = 0;
@@ -98,7 +98,7 @@
         //            //NSLog(@"属性的描述：%s 值：%s", name, value);
         //        }
         free(attrs);
-        NSLog(@"\n");
+        //NSLog(@"\n");
     }
     free(properties);
     

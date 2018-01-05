@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MeditorRoute.h"
+#import "MoudleManager.h"
 
 @interface ViewController ()
 
@@ -42,11 +43,17 @@
 //        }];
 //
         
-        [[MeditorRoute sharedInstance]performActionWithUrl:[NSURL URLWithString:@"testDemo://MoudleA_ViewController/sayHelloToP1:p2:=111,222/sayNone"] completion:^(id response) {
-
-            [self presentViewController:response animated:YES completion:nil];
-
-        }];
+//        [[MeditorRoute sharedInstance]performActionWithUrl:[NSURL URLWithString:@"testDemo://MoudleA_ViewController/sayHelloToP1:p2:=111,222/sayNone"] completion:^(id response) {
+//
+//            [self presentViewController:response animated:YES completion:nil];
+//
+//        }];
+        
+        UIViewController  <MoudleA_ViewControllerProtocol>* vc =    [[MoudleManager instance]getObjectWithProtocol:@protocol(MoudleA_ViewControllerProtocol) ];
+        
+        vc.actionName = @"说hello";
+        [self presentViewController:vc animated:YES completion:nil];
+        
         
 //     [[MeditorRoute sharedInstance]performActionWithTarget:@"MoudleA_ViewController"      params:@{@"actionName":@"说hello"} actionSelectorAndObjects:@[ @{Meditor_ACTION_NAME:@"sayHelloToP2:p2:",  Meditor_ACTION_OBJECTS :@[@"555",@"666"] },@{Meditor_ACTION_NAME:@"sayNone"}]
 //        completion:^(id response) {
@@ -56,7 +63,6 @@
     }else
     {
         [sender setTitle:@"MoudleB" forState:UIControlStateNormal];
-        
         
         [[MeditorRoute sharedInstance]performActionWithTarget:@"MoudleB_ViewController" params:@{@"actionName2":@"说byebye",@"_hello":^(void) {
             NSLog(@"这是一个MoudleB_Block_Hello");
@@ -72,6 +78,14 @@
 
     }
     
+}
+
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    NSLog(@"viewDidAppear");
 }
 
 

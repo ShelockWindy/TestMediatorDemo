@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MoudleA_ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    MoudleA_ViewController * mainViewController = [[MoudleA_ViewController alloc]init];
+    mainViewController.view.backgroundColor = [UIColor whiteColor];
+    
+    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController: mainViewController];
+    
+    self.window.rootViewController = nav;
+    
+    [self.window makeKeyWindow];
+
     return YES;
 }
 
@@ -30,11 +42,17 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    NSLog(@"11111111111111");
+    
+    
 }
 
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+    
+    
+
 }
 
 
@@ -47,5 +65,10 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+//-(void)new_applicationDidEnterBackground:(UIApplication *)application
+//{
+//    NSLog(@"222222222222");
+//
+//}
 
 @end
